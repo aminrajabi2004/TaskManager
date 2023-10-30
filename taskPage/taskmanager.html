@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/icons?icon.set=Material+Icons"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+ Bhaijaan+2:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./taskmanager.css" />
+
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <header>
+      <h1>work management</h1>
+      <input id="search" type="text" placeholder="Search" />
+
+      <img
+        id="avatar"
+        src="../img/undraw_pic_profile_re_7g2h.svg"
+        alt=""
+        width="50px
+      "
+      />
+    </header>
+
+    <div class="container">
+      <div class="navBar">
+        <div class="menu">
+          <ul>
+            <i class="fa-solid fa-house"></i>
+            <a href=""> <li>Home</li> </a>
+            <br />
+            <i class="fa-solid fa-briefcase"></i>
+            <a href=""> <li>My Work</li> </a>
+          </ul>
+        </div>
+        <hr />
+        <h3 id="Workspace-lable">Workspace</h3>
+        <input
+          type="text"
+          class="workspace-input"
+          placeholder="New Workspace"
+        />
+        <button class="workspace-button" type="submit">+</button>
+        <div class="workspace-container">
+          <ul class="workspace-list">
+            <a class="a-work" href="#"></a>
+          </ul>
+        </div>
+
+        <img
+          id="img-navBar"
+          src="../img/undraw_team_up_re_84ok.svg"
+          alt=""
+          width="265px
+        "
+        />
+      </div>
+      <div class="main">
+        <div id="heloo"></div>
+        <h1 id="sls">Welcome <br> please create new workspace :)</h1>
+      </div>
+    </div>
+    <script src="./taskmanager.js"></script>
+  </body>
+</html>
