@@ -16,6 +16,7 @@ function addWorkspace(event) {
   newWorkspace.innerText = workspaceInput.value;
 
   workspaceDiv.appendChild(newWorkspace);
+  
   workspaceInput.value = "";
 
   workspaceList.appendChild(workspaceDiv);
